@@ -1,0 +1,31 @@
+{% extends 'hyhub/oauth/signin.html' %}
+{% block title %} Register {% endblock %}
+
+{% block oauthform %}
+    <form class="form-signin">
+      <img class="mb-4" src="/static/assets/img/logos/favicon.png" alt="" width="120" height="120">
+      <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+      <label for="firstname" class="sr-only">First Name</label>
+      <input type="text" id="firatname" class="form-control" placeholder="Firstname" required autofocus>
+      <br>
+      <label for="lastname" class="sr-only">Last Name</label>
+      <input type="text" id="lastname" class="form-control" placeholder="Lastname" required autofocus>
+      <br>
+      <label for="company" class="sr-only">Company</label>
+      <input type="text" id="company" class="form-control" placeholder="Company" autofocus>
+      <br>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <br>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+<br>
+      <label for="confirmPassword" class="sr-only">Confirm Password</label>
+      <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required>
+      <br>
+      <button class="btn btn-lg btn-block" type="submit" style="background-color: #396756; color: white;">Register</button>
+      <br>
+      <a href="/login" style="color:#396756;">Sign In</a>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>
+  {% endblock %}

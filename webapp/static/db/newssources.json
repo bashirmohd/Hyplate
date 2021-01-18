@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Import IO",
+        "source": "https://www.import.io",
+        "sourceLogo":"http://www.interhacktives.com/wp-content/uploads/2014/03/IO.png",
+        "feed": "https://www.import.io/feed/"
+    },
+    {
+        "name": "Parse Hub",
+        "source": "https://www.parsehub.com/",
+        "sourceLogo":"https://img.stackshare.io/service/1515/4c2bkLfo.png",
+        "feed": "https://www.parsehub.com/blog/rss/"
+    },
+    {
+        "name": "Scraping Hub",
+        "source": "https://www.scrapinghub.com/",
+        "sourceLogo":"https://avatars1.githubusercontent.com/u/699596?s=280&v=4",
+        "feed": "https://blog.scrapinghub.com/rss.xml"
+    },
+    {
+        "name": "Scrape Works",
+        "source": "",
+        "sourceLogo":"/static/assets/img/logos/scrapeworks.png",
+        "feed": "https://scrape.works/blog/feed/"
+    },
+    {
+        "name": "Diggernuts",
+        "source": "",
+        "sourceLogo":"http://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1472553361/nesvlmyhko5fiahr2rxw.png",
+        "feed": "https://www.diggernaut.com/blog/feed/"
+    }   
+]
