@@ -25,10 +25,8 @@ def login():
 @app.route('/hyhub')
 def hyhub():
     datainex = 'static/db/dataindex.json'
-    with open(datainex, 'r+') as ff:
-        lines = loads(ff.read())
-    ff.close()
-    return render_template('hyhub/hyhub.html', dataindex=lines)
+    dataindex  = [i for i in connect_db('dataindex').find()]
+    return render_template('hyhub/hyhub.html', dataindex=dataindex)
 
 @app.route('/infographics')
 def infographics():
@@ -37,10 +35,7 @@ def infographics():
 @app.route('/news')
 def news():
     data = []
-    news = 'static/db/newssources.json'
-    with open(news, 'r+') as ff:
-        lines = loads(ff.read())
-    ff.close()
+    lines = [i for i in connect_db('newssources').find()]
     for line in lines:
         articles = read_rss(line['feed'])
         for article in articles:

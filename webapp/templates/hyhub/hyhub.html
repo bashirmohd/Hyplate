@@ -22,7 +22,7 @@
        {% set fields=i['fields'] %}
        <div class="col-lg-4" style="margin-top:20px;">
         <div class="card" style="border-radius:10px;">
-           <div class="card-header" style="color:#396756;font-size:15px;text-align: center; font-weight:bolder;">{{i['name']}}</div>
+           <div class="card-header" style="color:black;font-size:15px;text-align: center; font-weight:bolder;">{{i['name']}}</div>
            <div class="card-body">
                <p><span class="subtitle"><i class="fas fa-calendar-alt"></i> </span> <span class="desc">{{i['published']}}</span></p>
                <p><span class="subtitle"><i class="fas fa-database"></i> </span> <span class="desc">{{i['source']}}</span></p>
@@ -32,6 +32,7 @@
                <p class="left">
                 <button type="button" class="btn btn-inverse" data-toggle="modal" data-target="#dataModal{{i['id']}}"><i class="far fa-eye"></i></button>
                 <a href=""><i class="fas fa-download"></i></a>
+                <button type="button" class="btn btn-inverse" data-toggle="modal" data-target="#dataModal{{i['id']}}"><i class="far fa-chart-bar"></i></button>
                </p>
                <p class="right">
                    <a href="https://www.instagram.com/hyplate_io/" target='_blank'><i class="fab fa-instagram"></i></a>

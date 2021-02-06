@@ -19,7 +19,8 @@
     "sourcelogo": "logos/europages.png",
     "metadatafile": "",
     "datagraph": "",
-    "tags": ["procurement"]
+    "tags": ["procurement"],
+    "linkToDownload": ""
     },
     {
         "id": "2",
@@ -41,7 +42,8 @@
         "sourcelogo": "logos/europages.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["procurement"]
+        "tags": ["procurement"],
+        "linkToDownload": ""
     },
     {
         "id": "3",
@@ -63,7 +65,8 @@
         "sourcelogo": "logos/europages.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["procurement"]
+        "tags": ["procurement"],
+        "linkToDownload": ""
     },
     {
         "id": "4",
@@ -85,7 +88,8 @@
         "sourcelogo": "logos/europages.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["procurement"]
+        "tags": ["procurement"],
+        "linkToDownload": ""
     },
     {
         "id": "5",
@@ -103,7 +107,8 @@
         "sourcelogo": "logos/europages.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["procurement"]
+        "tags": ["procurement"],
+        "linkToDownload": ""
     },
     {
         "id": "6",
@@ -121,7 +126,8 @@
         "sourcelogo": "logos/europages.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["procurement"]
+        "tags": ["procurement"],
+        "linkToDownload": ""
     },
     {
         "id": "7",
@@ -138,7 +144,8 @@
         "sourcelogo": "logos/favicon.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["finance"]
+        "tags": ["finance"],
+        "linkToDownload": ""
     },
     {
         "id": "8",
@@ -164,7 +171,8 @@
         "sourcelogo": "logos/favicon.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["Cyber-Security"]
+        "tags": ["Cyber-Security"],
+        "linkToDownload": ""
     },
     {
         "id": "9",
@@ -190,7 +198,8 @@
         "sourcelogo": "logos/favicon.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["Cyber-Security"]
+        "tags": ["Cyber-Security"],
+        "linkToDownload": ""
     },
     {
         "id": "10",
@@ -216,7 +225,7 @@
         "sourcelogo": "logos/favicon.png",
         "metadatafile": "",
         "datagraph": "",
-        "tags": ["Cyber-Security"]
+        "tags": ["Cyber-Security"],
+        "linkToDownload": ""
     }
-
 ]

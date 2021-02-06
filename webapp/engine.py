@@ -3,6 +3,13 @@ from bs4 import BeautifulSoup
 from datetime import datetime as dt
 from random import shuffle
 from pyquery import PyQuery
+from  pymongo import MongoClient
+
+###Connect db
+def connect_db(collection: str, db='Hyplate'):
+    conn = MongoClient(host = '127.0.0.1', port = 27017)
+    return conn[db][collection]
+
 
 ##########
 def read_rss(url):
